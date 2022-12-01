@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   box-sizing: border-box;
   margin: 0;
@@ -148,5 +149,95 @@
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
+=======
+body {
+  background-color: rgb(255, 255, 255); 
+  background-size: cover;
+  height: 60vw;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+  
+  }
+
+.container {
+  object-fit: fill;
+  position: relative;
+  text-align: center;
+  color: white;
+ 
+}
+.container img{
+  vertical-align:top;
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.centered {
+  border: 2px solid white;
+  padding: 2vw;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 65px;
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+.home {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2vw;
+}
+
+.home_table {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2vw;
+
+}
+
+.home_table td {
+    padding: 4vw;
+
+}
+
+.imgtable {
+  padding-top: 8vw;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.imgtable img{
+  width: 100%;
+  /* margin: 0;
+  display: block; */
+}
+
+.bar_img img{
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.playhouse_img img{
+  width: 75%;
+  margin: auto;
+  display: block;
+}
+
+.gavel_img img{
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.chair_img img{
+  width: 80%;
+  margin: auto;
+  display: block;
+>>>>>>> 883976a65e651ce2cfe2763559c9500c817fb3a7
 }
 
