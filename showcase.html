@@ -1,89 +1,105 @@
 <!DOCTYPE html>
 <html lang="et">
 <head>
-<title>Puu&Muu - Tehtud tööd</title>
+<title>Tehtud tooted</title>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/x-icon" href="favicon.jpeg">
+<script src="we.js"></script>
+<meta charset="UTF-8">
 </head>
 <body>
 
-
-<div class="container">
-    <img src="h1taust.jpeg", alt="h1taust">
-    <div class="centered">TEHTUD TÖÖD</div>
-    <div class="home">
-        <div class="home_table">
-            <table>
-                <tr>
-                    <a href="pealeht.html" class="navbar__links">Kodu</a>
-                    
-                    
-                </tr>
-            </table>
+<div class="gallery">
+    <nav class="navbar">
+        <div class="navbar__container">
+        <a href="pealeht.html" id="navbar__logo"><i class="fas fa-gem"></i>Nord Leaf</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
         </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+            <a href="pealeht.html" class="navbar__links">Kodu</a>
+            </li>
+            <li class="navbar__item">
+            <a href="showcase.html" class="navbar__links">Tehtud tooted</a>
+            </li>
+            <li class="navbar__item">
+            <a href="" class="navbar__links">Mingi link siia</a>
+            </li>
+            
+        </ul>
+        </div>
+    </nav>
+
+
+    <div class="img-container">
+
+        <div class="slide_p">
+        <img src="https://i.shgcdn.com/13e27e1c-18f0-4ea3-a4e3-f270e2e1b200/-/format/auto/-/preview/3000x3000/-/quality/lighter/" alt="phone_case" style="width:100%">
+        </div>
+        
+        <div class="slides fade">
+        <div class="numbertext">1 / 6</div>
+        <img src="https://i.shgcdn.com/13e27e1c-18f0-4ea3-a4e3-f270e2e1b200/-/format/auto/-/preview/3000x3000/-/quality/lighter/" alt="phone_case" style="width:100%">
+        </div>
+    
+        <div class="slides fade">
+        <div class="numbertext">2 / 6</div>
+        <img src="https://i0.wp.com/www.interiorstorm.co.uk/wp-content/uploads/2021/08/main_bnr.png?fit=1920%2C1080&ssl=1" alt="tableset" style="width:100%">
+        </div>
+    
+        <div class="slides fade">
+        <div class="numbertext">3 / 6</div>
+        <img src="https://www.ellementry.com/blog/wp-content/uploads/2021/09/twiggy-chopping-board-set-of-2-with-marble-stand.jpg" alt="breadboard" style="width:100%">
+        </div>
+
+        <div class="slides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="https://testreel-1.ams3.cdn.digitaloceanspaces.com/westbygg/sauna_22_dagmar/pictures/IMG_1713.JPG" alt="sauna" style="width:100%">
+        </div>
+
+        <div class="slides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="https://www.gannett-cdn.com/presto/2021/11/02/USAT/01e0f14e-28ba-49d0-9d64-483736a99bac-wayfair.png" alt="coffeetable" style="width:100%">
+        </div>
+
+        <div class="slides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="https://flyingarchitecture.com/storage/images/14354/toys_01.jpg" alt="puzzle" style="width:100%">
+        </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
     </div>
 </div>
 
-<div class="imgtable">
-    <table>
-        <tr>
-            <td>
-                <div class="bar_img">
-                <img src="https://i.pinimg.com/originals/8a/66/67/8a6667bf0f9a3b8ff47fb425d563cd3f.jpg", alt="bar">
-                </div>
-            </td>
-    
-            <td>
-                <div class="playhouse_img">
-                <img src="https://i.shgcdn.com/09d5ba2e-5191-4ea4-9d5a-0322d78ba906/-/format/auto/-/preview/3000x3000/-/quality/lighter/", alt="playhouse">
-                </div>
-            </td>
-        </tr>
 
-        <tr>
-            <td>
-                <div class="cigar_img">
-                <img src="https://boazstore.com/wp-content/uploads/2019/05/3-3-800x533.jpg", alt="cigar">
-                </div>
-            </td>
-            <td>
-                <div class="gavel_img">
-                <img src="https://davenportshandmade.co.uk/wp-content/uploads/2021/10/7F920A27-0841-4466-B947-7E0528D21E81-scaled.jpeg", alt="gavel">
-                </div>
-            </td>
-        </tr>
+<div class="ERM">
+    <h1>Meie tööd saab näha ka ERMis!</h1>
+    <div class="erm_p">
+        <p>Näituse üks kuraatoritest Heidi Solo: „Koos Epp Klimenkoga leidsime üsna lühikese perioodi jooksul lustliku seltskonna, 
+            kes soovisid oma puutöö-oskuseid näidata. Samal ajal mõtlesime, mis esemed võiksid need olla, 
+            et näitus saaks kompaktne ja kindla sõnumiga. Kiiged ja küünlalühtrid olid varasemalt silma jäänud kui huvitavad esemed, mida võiks valmistada. 
+            Kaaskuraator Epp pani kindlakäeliselt paika - teeme mõlemaid!"</p>
+    </div>
+    <p>Näitus avatud 12.11.2022-6.02.2023</p>
+    <a href="https://www.erm.ee/et/lustlik-seltskond-avab-ermis-naiste-puutoo-naituse">Loe rohkem</a>
 
-        <tr>
-            <!-- <td>
-                <div class="bicycle_img">
-                <img src="https://64.media.tumblr.com/f0aab35a29e73c2e49fa02d7593dd541/tumblr_p0wmou2V761w58pm1o1_1280.jpg", alt="bicycle">
-                </div>
-            </td> -->
-
-            <td>
-            <table>
-            <tr>
-                <div class="bicycle_img">
-                <img src="https://64.media.tumblr.com/f0aab35a29e73c2e49fa02d7593dd541/tumblr_p0wmou2V761w58pm1o1_1280.jpg", alt="bicycle">
-                </div>
-            </tr>
-            <tr>
-                <div class="lodge_img">
-                <img src="https://i.pinimg.com/originals/6f/31/47/6f3147e796708c091dc16562ffe1fbf2.jpg", alt="lodge">
-                </div>
-
-            </tr>
-             </table>
-             </td>
-
-            <td>
-                <div class="chair_img">
-                <img src="chair.jpg", alt="chair">
-                </div>
-            </td>
-        </tr>
-    </table>
 </div>
 
+<div class="filler"></div>
 </body>
 </html> 
