@@ -1,6 +1,6 @@
 # R-hmat-WEB
 
-Eesmärk teha lihtne startup firma veebi leht, mis tutvustab meid.
+Eesmärk teha lihtne startup firma veebi leht, mis tutvustab seda väljamõeldud firmat.
 
 Tegijad:
   Albert Wihler
